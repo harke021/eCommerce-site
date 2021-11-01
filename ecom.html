@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Website Design - Practice</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navBar">
+                <div class="logo">
+                    <img src="img/logo1.png" width="60px">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Products</a></li>
+                        <li> <a href="#">About</a></li>
+                        <li> <a href="#">Contact</a></li>
+                        <li> <a href="#">Account</a></li>
+                    </ul>
+              </nav>
+              <img src="img/cart.png" alt="" class="cart-icon" width="25px">
+              <img src="img/Hamburger_icon.svg.png" class="menu-icon" width="30px" height="30px"
+              onclick="menuToggle()"> 
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give your Workout <br> A New Style!</h1>
+                    <p>Success isn't always about greatness, it's about consistency, consistent <br> hard work gains
+                        success.
+                        Greatness will come.
+                    </p>
+                    <a href="#" class="btn"> Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/thug guy.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ Featured Categories ----->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="img/headphones 2.jpg" alt="" height="450px">
+                </div>
+                <div class="col-3">
+                    <img src="img/shoes 2.jpeg" alt="" height="450px">
+                </div>
+                <div class="col-3">
+                    <img src="img/men looks 1.jpg" alt="" height="450px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- Featured Products--->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/watch.jpg" alt="" height="310px">
+                <h4>Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$102.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product 4.jpg" alt="" height="310px">
+                <h4>Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$102.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/product 2.webp" alt="" height="310px">
+                <h4>Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$102.00</p>
+            </div>
+            <div class="col-4">
+                <img src="img/shoes 2.jpeg" alt="" height="310px">
+                <h4>Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$102.00</p>
+            </div>
+            <div>
+                <h2 class="title">Latest Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="img/gl.jpg" alt="" height="310px">
+                        <h4>Smart Watch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$102.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/product 4.jpg" alt="" height="310px">
+                        <h4>Smart Watch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$102.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/product 2.webp" alt="" height="310px">
+                        <h4>Smart Watch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$102.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="img/shoes 2.jpeg" alt="" height="310px">
+                        <h4>Smart Watch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$102.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!--- offer -->
+
+<div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="img/mi smart band.jpg.png" alt="" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Exclusively Available on MaPy Store</p>
+                            <h1>Mi Smart Band 4</h1>
+                            <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+                                AMOLED color full-touch display with the adjustable brightness, so everything is clear
+                                as
+                                can be.
+                            </small> <br>
+                            <a href="" class="btn">Buy Now &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+ </div>
+
+            <!-- testimonial-->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, Lorem ipsum dolor sit
+                                amet consectetur, adipisicing elit. Sed, quos.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="img/user1.jpg" alt="" height="294px">
+                            <h3>Tom Karki</h3>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, Lorem ipsum dolor sit
+                                amet consectetur, adipisicing elit. Sed, quos.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="img/user 2.jpg" alt="" height="294px">
+                            <h3>Tom Tmg</h3>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, Lorem ipsum dolor sit
+                                amet consectetur, adipisicing elit. Sed, quos.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="img/user3.jpg" alt="" height="294px">
+                            <h3>Tom-e Adhikari</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Brands-->
+            <div class="brands">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="img/coke.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="img/rollex.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="img/nike.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <img src="img/paypal.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--   Footer   -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="foot-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and Ios Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="img/gplay.png" alt="">
+                    <img src="img/app.png" alt="">
+                </div>
+            </div>
+            <div class="foot-col-2">
+                <img src="img/logo1.png" alt="" width="200px">
+                <p>Our Purpose is to supply quality and stylish Fashion Wares.So, Stay tuned for seasonal fancy stuffs
+                    in affordable price.</p>
+            </div>
+            <div class="foot-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Posts</li>
+                    <li>Return Policy</li>
+                    <li>Join Affilate</li>
+                </ul>
+            </div>
+            <div class="foot-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 - MaPy Store | All rights reserved.</p>
+    </div>
+</div>
+
+<!--------- Js for toggle Menu ------->
+<script>
+    var menuItems = document.getElementById("menuItems");
+    menuItems.style.maxHeight = "0px";
+    function menuToggle(){
+        if (menuItems.style.maxHeight == "0px")
+        {
+            menuItems.style.maxHeight = "200px"
+        }
+        else{
+            menuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>
